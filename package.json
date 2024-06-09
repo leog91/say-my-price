@@ -1,0 +1,23 @@
+{
+  "name": "say-my-price",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "npx drizzle-kit generate &&  echo '=======\n' && npx drizzle-kit migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.10",
+    "drizzle-kit": "^0.22.6",
+    "tsx": "^4.14.1"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "drizzle-orm": "^0.31.2"
+  }
+}
