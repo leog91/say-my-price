@@ -7,6 +7,7 @@
   "scripts": {
     "start": "tsx index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "checkNewProduct": "tsx checkNew.ts",
     "migrate": "npx drizzle-kit generate &&  echo '=======\n' && npx drizzle-kit migrate"
   },
   "author": "",
@@ -18,6 +19,7 @@
   },
   "dependencies": {
     "better-sqlite3": "^11.0.0",
-    "drizzle-orm": "^0.31.2"
+    "drizzle-orm": "^0.31.2",
+    "playwright": "^1.44.1"
   }
 }
